@@ -8,9 +8,9 @@ terraform {
 }
 
 # Configura o Provider Google Cloud com o Projeto
-provider "google"
+provider "google" {
 
-  project = "devops-lab-clark"
+  project = "DEFINIR"
   region  = "us-west1"
   zone    = "us-west1-b"
 }
